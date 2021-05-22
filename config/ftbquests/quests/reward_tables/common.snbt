@@ -1,0 +1,86 @@
+{
+	id: "5775F1A896964707",
+	order_index: 0,
+	title: "Common",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:grass_block",
+			count: 4
+		},
+		{
+			item: "minecraft:oak_sapling",
+			count: 16
+		},
+		{
+			item: {
+				id: "realistictorches:matchbox",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "minecraft:glowstone_dust",
+			count: 16
+		},
+		{
+			item: "minecraft:stick",
+			count: 64
+		},
+		{
+			item: "minecraft:rotten_flesh",
+			count: 32
+		},
+		{
+			item: "minecraft:green_carpet",
+			count: 24
+		},
+		{
+			item: "thermal:sulfur_dust",
+			count: 32
+		},
+		{
+			item: "storagedrawers:oak_full_drawers_1",
+			count: 16
+		},
+		{
+			item: "minecraft:bone_meal",
+			count: 64
+		},
+		{
+			item: "projecte:alchemical_coal",
+			count: 16
+		},
+		{
+			item: "minecraft:campfire",
+			count: 16
+		},
+		{
+			item: "create:crushed_gold_ore",
+			count: 4
+		},
+		{
+			item: "inventorypets:nugget_diamond",
+			count: 3
+		},
+		{
+			item: "blockcarpentry:frameblock",
+			count: 32
+		},
+		{
+			item: "enviromats:hardened_stone",
+			count: 16
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 350,
+			monster: 10
+		},
+		color: 9607578,
+		string_id: "common"
+	}
+}

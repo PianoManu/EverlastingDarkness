@@ -1,0 +1,305 @@
+{
+	id: "0254AE86A89F5C97",
+	group: "",
+	order_index: 0,
+	filename: "getting_started",
+	title: "Getting Started",
+	icon: "minecraft:oak_sapling",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Introduction",
+			icon: "minecraft:cobblestone",
+			x: -18.0d,
+			y: -8.5d,
+			subtitle: "What have we done??",
+			description: ["The earth as we know it has sunk into chaos through human exploitation. What remains is this terribly dark and endless cave. All civilizations are long gone. Dangers lurk around every corner. Evil creatures are waiting in the darkness to tear you apart. Light is a thousand times more valuable than all gold and all diamonds in the world. But the shining light of the sky cannot be seen in this endless night. Loaded with only a few seeds and saplings, your task is now to uncover the mystery of this dimension and to break the power of darkness. The future and the hope of all humanity rests on your shoulders! Good luck, brave traveler!"],
+			id: "0C3841794FF0DEA7",
+			tasks: [{
+				id: "12DEDE120250DA39",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "38A0A08C17FFCC38",
+					type: "item",
+					item: "minecraft:oak_sapling",
+					count: 4
+				},
+				{
+					id: "2FE5A576FE3A8C4D",
+					type: "item",
+					item: "minecraft:dirt"
+				}
+			]
+		},
+		{
+			title: "Light - the most valuable good",
+			icon: "minecraft:torch",
+			x: -17.0d,
+			y: -8.5d,
+			description: [
+				"Don't stay too long in the dark. The shadow creatures are just lurking to make you one of their own.",
+				"",
+				"Keep them away using light sources. But be aware, that torches burn down pretty quick (ca. 10 minutes), so you'll have to rekindle them using matchsticks.",
+				"",
+				"As you progress, you will have to switch to other permanent light sources, but for now, torches should be fine..."
+			],
+			dependencies: ["0C3841794FF0DEA7"],
+			id: "673CFE559302E07C",
+			tasks: [{
+				id: "01BB0F8E02C6116B",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "28F82B8306E04749",
+				type: "item",
+				item: {
+					id: "realistictorches:unlit_torch",
+					Count: 16b
+				},
+				count: 16
+			}]
+		},
+		{
+			title: "Where did all the forests go?",
+			icon: "minecraft:oak_sapling",
+			x: -17.0d,
+			y: -7.5d,
+			description: [
+				"It will be really hard to gather some materials in this wasteland. However, you've got some saplings and now you should keep an eye on them.",
+				"",
+				"At first, you'll have to find some space to place your sapling and watch it grow",
+				"",
+				"Hint: Sneaking near saplings will make them grow faster if they have enough space and light"
+			],
+			dependencies: ["0C3841794FF0DEA7"],
+			id: "483A9270053F2640",
+			tasks: [{
+				id: "08C205C3FCC36E6A",
+				type: "item",
+				item: "minecraft:oak_log",
+				count: 32L
+			}],
+			rewards: [{
+				id: "1069BF53AC3CDCE8",
+				type: "item",
+				item: "minecraft:oak_planks",
+				count: 64
+			}]
+		},
+		{
+			title: "Too realistic torches",
+			x: -16.0d,
+			y: -8.5d,
+			subtitle: "Where did I put my matchsticks...",
+			description: ["When your torches die, you can relighten them using your match sticks. Keep in mind that you don't have infinite matchsticks."],
+			dependencies: ["673CFE559302E07C"],
+			id: "778ACC774B3E9EB8",
+			tasks: [{
+				id: "3C3334A70C731217",
+				type: "item",
+				item: {
+					id: "realistictorches:unlit_torch",
+					Count: 16b
+				},
+				count: 32L
+			}],
+			rewards: [{
+				id: "75A4C79641EC0DC4",
+				type: "item",
+				item: {
+					id: "realistictorches:matchbox",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Botanist",
+			x: -16.0d,
+			y: -7.5d,
+			subtitle: "After all these years. Finally, I have them all!",
+			description: ["Gather at least one of each type of vanilla saplings."],
+			dependencies: ["483A9270053F2640"],
+			id: "027D1C1C3C7B0A3A",
+			tasks: [
+				{
+					id: "395B7504258C770B",
+					type: "item",
+					item: "minecraft:oak_sapling"
+				},
+				{
+					id: "4EC430FA1C9530AB",
+					type: "item",
+					item: "minecraft:spruce_sapling"
+				},
+				{
+					id: "6A6AE4ED19F1458E",
+					type: "item",
+					item: "minecraft:birch_sapling"
+				},
+				{
+					id: "08AC6369F92997C8",
+					type: "item",
+					item: "minecraft:jungle_sapling"
+				},
+				{
+					id: "071491863A99994B",
+					type: "item",
+					item: "minecraft:acacia_sapling"
+				},
+				{
+					id: "041D70606A06CA24",
+					type: "item",
+					item: "minecraft:dark_oak_sapling"
+				}
+			],
+			rewards: [
+				{
+					id: "5098FA09B73E5B54",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "12ED61756094ED3F",
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: 1b,
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -15.0d,
+			y: -7.0d,
+			description: ["Since we live in total darkness, there ain't any vegetation here. So you'll have to buy them from your local emerald scrounger"],
+			dependencies: [
+				"027D1C1C3C7B0A3A",
+				"24E7E62DFA4E6E6E"
+			],
+			id: "4E9B9D43485FCE99",
+			tasks: [{
+				id: "72EC2CD3D3A42114",
+				type: "item",
+				item: "farmingforblockheads:market"
+			}],
+			rewards: [
+				{
+					id: "0EA49EC65A308CBE",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 4
+				},
+				{
+					id: "7702B4281DA21858",
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: 1b,
+						tag: {
+							type: "food"
+						}
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			title: "The diligent farmer",
+			icon: "minecraft:wheat",
+			x: -16.0d,
+			y: -6.5d,
+			subtitle: "Smoke Wheat everyday",
+			description: [
+				"You got some seeds from the previous quest. Be careful not to lose them!",
+				"",
+				""
+			],
+			dependencies: ["00079DFECE0E715C"],
+			id: "24E7E62DFA4E6E6E",
+			tasks: [
+				{
+					id: "07E472DCD1B41A9C",
+					type: "item",
+					item: "minecraft:wheat_seeds",
+					count: 16L
+				},
+				{
+					id: "6090689E06DC233C",
+					type: "item",
+					item: "minecraft:wheat",
+					count: 16L
+				}
+			],
+			rewards: [{
+				id: "081C6A39C97871F4",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "food"
+					}
+				}
+			}]
+		},
+		{
+			title: "Farmer's best friend",
+			icon: {
+				id: "minecraft:stone_hoe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -17.0d,
+			y: -6.5d,
+			subtitle: "It aint much but it's honest work!",
+			description: [
+				"To get your hands on some food, you'll have to till some dirt and plant seeds. For that you'll need a hoe.",
+				"",
+				"Water can be found either openly in lakes or deep down in small caves. But this needs a bit of luck, so you'll get some water along with your first seeds!"
+			],
+			dependencies: ["0C3841794FF0DEA7"],
+			id: "00079DFECE0E715C",
+			tasks: [
+				{
+					id: "173C432795428682",
+					type: "item",
+					item: {
+						id: "minecraft:stone_hoe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3A4D32FD59DA2643",
+					type: "item",
+					item: "minecraft:bucket"
+				}
+			],
+			rewards: [
+				{
+					id: "03925EB393257066",
+					type: "item",
+					item: "minecraft:wheat_seeds",
+					count: 4
+				},
+				{
+					id: "544C654D8ECE5C94",
+					type: "item",
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{
+			id: "0C3AF934C4378CCE",
+			title: "Tools"
+		},
+		{
+			id: "367FBC3C6B358AD1",
+			title: "Farming and Foraging"
+		}
+	]
+}

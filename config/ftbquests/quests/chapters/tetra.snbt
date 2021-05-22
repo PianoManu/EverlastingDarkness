@@ -1,0 +1,31 @@
+{
+	id: "6269883C604CC100",
+	group: "0C3AF934C4378CCE",
+	order_index: 1,
+	filename: "tetra",
+	title: "Tetra",
+	default_quest_shape: "",
+	quests: [{
+		x: -16.0d,
+		y: -8.5d,
+		id: "4B761185CC7173BC",
+		tasks: [{
+			id: "2F4D3C5AF0E0CBD7",
+			type: "item",
+			item: {
+				id: "tetra:modular_double",
+				Count: 1b,
+				tag: {
+					"double/handle": "double/basic_handle",
+					"double/head_left": "double/basic_hammer_left",
+					"double/head_right": "double/basic_hammer_right",
+					id: "4baa2d94-02f7-4e79-86c2-9c46c4b8a3e6",
+					"double/basic_hammer_right_material": "basic_hammer/oak",
+					Damage: 0,
+					"double/basic_handle_material": "basic_handle/stick",
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,206 @@
+{
+	id: "5B0743125D36FCD2",
+	order_index: 1,
+	title: "Food",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:apple",
+			count: 16
+		},
+		{
+			item: "minecraft:golden_apple",
+			count: 8
+		},
+		{
+			item: "mysticalagradditions:inferium_apple",
+			count: 8
+		},
+		{
+			item: "mysticalagradditions:prudentium_apple",
+			count: 8
+		},
+		{
+			item: "mysticalagradditions:tertium_apple",
+			count: 8
+		},
+		{
+			item: "mysticalagradditions:imperium_apple",
+			count: 8
+		},
+		{
+			item: "mysticalagradditions:supremium_apple",
+			count: 8
+		},
+		{
+			item: "mysticalagradditions:insanium_apple",
+			count: 8
+		},
+		{
+			item: "minecraft:cake"
+		},
+		{
+			item: "simplefarming:birthday_cake"
+		},
+		{
+			item: "simplefarming:chocolate_cake"
+		},
+		{
+			item: "thermal:spice_cake"
+		},
+		{
+			item: "thermal:chocolate_cake"
+		},
+		{
+			item: "create:blaze_cake",
+			count: 8
+		},
+		{
+			item: "minecraft:cooked_porkchop",
+			count: 8
+		},
+		{
+			item: "minecraft:cooked_cod",
+			count: 8
+		},
+		{
+			item: "minecraft:cooked_salmon",
+			count: 8
+		},
+		{
+			item: "minecraft:cookie",
+			count: 64
+		},
+		{
+			item: "minecraft:cooked_chicken",
+			count: 8
+		},
+		{
+			item: "minecraft:cooked_rabbit",
+			count: 8
+		},
+		{
+			item: "minecraft:cooked_mutton",
+			count: 8
+		},
+		{
+			item: "simplefarming:cooked_bacon",
+			count: 8
+		},
+		{
+			item: "simplefarming:cooked_chicken_wings",
+			count: 8
+		},
+		{
+			item: "simplefarming:cooked_egg",
+			count: 8
+		},
+		{
+			item: "simplefarming:cooked_horse_meat",
+			count: 8
+		},
+		{
+			item: "simplefarming:cooked_sausage",
+			count: 8
+		},
+		{
+			item: "simplefarming:peanut_butter_cookie",
+			count: 8
+		},
+		{
+			item: "inventorypets:holiday_cookie",
+			count: 8
+		},
+		{
+			item: "silentgems:sugar_cookie",
+			count: 8
+		},
+		{
+			item: "minecraft:bread",
+			count: 16
+		},
+		{
+			item: "create:dough",
+			count: 64
+		},
+		{
+			item: "pneumaticcraft:sourdough",
+			count: 64
+		},
+		{
+			item: "pneumaticcraft:sourdough_bread",
+			count: 8
+		},
+		{
+			item: "simplefarming:banana_bread",
+			count: 64
+		},
+		{
+			item: "minecraft:honey_bottle",
+			count: 16
+		},
+		{
+			item: "simplefarming:honeydew",
+			count: 8
+		},
+		{
+			item: "cyclic:apple_honey",
+			count: 16
+		},
+		{
+			item: "simplefarming:oatmeal"
+		},
+		{
+			item: "simplefarming:rice_bowl"
+		},
+		{
+			item: "minecraft:beetroot_soup"
+		},
+		{
+			item: "simplefarming:broccoli_cheese_soup"
+		},
+		{
+			item: "simplefarming:carrot_soup"
+		},
+		{
+			item: "simplefarming:chicken_noodle_soup"
+		},
+		{
+			item: "simplefarming:cucumber_soup"
+		},
+		{
+			item: "simplefarming:onion_soup"
+		},
+		{
+			item: "simplefarming:pea_soup"
+		},
+		{
+			item: "simplefarming:pumpkin_soup"
+		},
+		{
+			item: "simplefarming:radish_soup"
+		},
+		{
+			item: "simplefarming:sausage_barley_soup"
+		},
+		{
+			item: "simplefarming:squash_soup"
+		},
+		{
+			item: "simplefarming:tomato_soup"
+		},
+		{
+			item: "minecraft:cooked_beef",
+			count: 64
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 200,
+			monster: 10
+		},
+		color: 16753664,
+		string_id: "food"
+	}
+}
