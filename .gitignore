@@ -1,0 +1,13 @@
+.mixin.out
+crash-reports
+downloads
+journeymap
+logs
+mods
+mods_errors
+saves
+schematics
+screenshots
+.curseclient
+*.log
+*.json
