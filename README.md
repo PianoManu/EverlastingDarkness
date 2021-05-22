@@ -1,0 +1,3 @@
+# EverlastingDarkness
+This is the official github repository for the Minecraft Modpack Everlasting Darkness for Minecraft 1.16.5
+More info coming soon...
